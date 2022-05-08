@@ -13,6 +13,14 @@
 		4779ADB02827B33D004F73E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADAE2827B33D004F73E6 /* Main.storyboard */; };
 		4779ADB22827B33E004F73E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADB12827B33E004F73E6 /* Assets.xcassets */; };
 		4779ADB52827B33E004F73E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADB32827B33E004F73E6 /* LaunchScreen.storyboard */; };
+		4779ADC72827C230004F73E6 /* Sound.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779ADC62827C230004F73E6 /* Sound.swift */; };
+		4779ADC92827C90D004F73E6 /* CustomCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779ADC82827C90D004F73E6 /* CustomCellTableViewCell.swift */; };
+		4779ADCB2827CB08004F73E6 /* SongsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4779ADCA2827CB08004F73E6 /* SongsTableViewController.swift */; };
+		4779ADD12827D450004F73E6 /* Epic.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADCC2827D44F004F73E6 /* Epic.mp3 */; };
+		4779ADD22827D450004F73E6 /* Rumble.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADCD2827D450004F73E6 /* Rumble.mp3 */; };
+		4779ADD32827D450004F73E6 /* Tomorrow.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADCE2827D450004F73E6 /* Tomorrow.mp3 */; };
+		4779ADD42827D450004F73E6 /* Beyond the line.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADCF2827D450004F73E6 /* Beyond the line.mp3 */; };
+		4779ADD52827D450004F73E6 /* Happy Rock.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4779ADD02827D450004F73E6 /* Happy Rock.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4779ADB12827B33E004F73E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4779ADB42827B33E004F73E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4779ADB62827B33E004F73E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4779ADC62827C230004F73E6 /* Sound.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sound.swift; sourceTree = "<group>"; };
+		4779ADC82827C90D004F73E6 /* CustomCellTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCellTableViewCell.swift; sourceTree = "<group>"; };
+		4779ADCA2827CB08004F73E6 /* SongsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsTableViewController.swift; sourceTree = "<group>"; };
+		4779ADCC2827D44F004F73E6 /* Epic.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Epic.mp3; sourceTree = "<group>"; };
+		4779ADCD2827D450004F73E6 /* Rumble.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Rumble.mp3; sourceTree = "<group>"; };
+		4779ADCE2827D450004F73E6 /* Tomorrow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Tomorrow.mp3; sourceTree = "<group>"; };
+		4779ADCF2827D450004F73E6 /* Beyond the line.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Beyond the line.mp3"; sourceTree = "<group>"; };
+		4779ADD02827D450004F73E6 /* Happy Rock.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happy Rock.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +75,18 @@
 				4779ADA82827B33D004F73E6 /* AppDelegate.swift */,
 				4779ADAA2827B33D004F73E6 /* SceneDelegate.swift */,
 				4779ADAC2827B33D004F73E6 /* ViewController.swift */,
+				4779ADC62827C230004F73E6 /* Sound.swift */,
+				4779ADC82827C90D004F73E6 /* CustomCellTableViewCell.swift */,
+				4779ADCA2827CB08004F73E6 /* SongsTableViewController.swift */,
 				4779ADAE2827B33D004F73E6 /* Main.storyboard */,
 				4779ADB12827B33E004F73E6 /* Assets.xcassets */,
 				4779ADB32827B33E004F73E6 /* LaunchScreen.storyboard */,
 				4779ADB62827B33E004F73E6 /* Info.plist */,
+				4779ADCF2827D450004F73E6 /* Beyond the line.mp3 */,
+				4779ADCC2827D44F004F73E6 /* Epic.mp3 */,
+				4779ADD02827D450004F73E6 /* Happy Rock.mp3 */,
+				4779ADCD2827D450004F73E6 /* Rumble.mp3 */,
+				4779ADCE2827D450004F73E6 /* Tomorrow.mp3 */,
 			);
 			path = Ejercicio05;
 			sourceTree = "<group>";
@@ -126,8 +150,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4779ADB52827B33E004F73E6 /* LaunchScreen.storyboard in Resources */,
+				4779ADD42827D450004F73E6 /* Beyond the line.mp3 in Resources */,
+				4779ADD22827D450004F73E6 /* Rumble.mp3 in Resources */,
 				4779ADB22827B33E004F73E6 /* Assets.xcassets in Resources */,
+				4779ADD32827D450004F73E6 /* Tomorrow.mp3 in Resources */,
+				4779ADD52827D450004F73E6 /* Happy Rock.mp3 in Resources */,
 				4779ADB02827B33D004F73E6 /* Main.storyboard in Resources */,
+				4779ADD12827D450004F73E6 /* Epic.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +167,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4779ADCB2827CB08004F73E6 /* SongsTableViewController.swift in Sources */,
 				4779ADAD2827B33D004F73E6 /* ViewController.swift in Sources */,
 				4779ADA92827B33D004F73E6 /* AppDelegate.swift in Sources */,
 				4779ADAB2827B33D004F73E6 /* SceneDelegate.swift in Sources */,
+				4779ADC92827C90D004F73E6 /* CustomCellTableViewCell.swift in Sources */,
+				4779ADC72827C230004F73E6 /* Sound.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
